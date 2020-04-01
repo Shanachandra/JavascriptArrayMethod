@@ -1,5 +1,5 @@
 
-/* ArrayMethod.Every()
+// ArrayMethod.Every()
 const isBelowThreshold = (currentValue) => currentValue < 40;
  const array1 = [1, 30, 39, 29, 10, 13];
 
@@ -22,11 +22,11 @@ return true;
 }
 
 console.log(predefined(array1,isBelowThreshold))
-*/
 
 
 
-/*ArrayMethod.Filter()
+
+//ArrayMethod.Filter()
  const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
  //const result = words.filter(word => word.length > 6);
@@ -47,11 +47,10 @@ function predefined(word){
 }
 
 console.log(predefined(words))
-*/
 
 
 
-/* ArrayMethod.Find()
+// ArrayMethod.Find()
 const array1 = [5, 12, 8, 130, 44];
 
 //const found = array1.find(element => element > 10);
@@ -75,10 +74,10 @@ return result;
 
 console.log(predefined(array1))
 
-*/
 
 
-/*ArrayMethod.FindIndex()
+
+//ArrayMethod.FindIndex()
 const array1 = [5, 12, 8, 1, 4];
 
 const isLargeNumber = (element) => element > 13;
@@ -105,9 +104,9 @@ return -1;
 
 console.log(predefined(array1,isLargeNumber))
 
-*/
 
-/*ArrayMethod.some()
+
+//ArrayMethod.some()
 
 const array = [1, 21, 3, 41, 5];
 
@@ -131,5 +130,5 @@ function predefine(arr,newfunc)
  return result;
 }
 console.log(predefine(array,even))
-*/
+
 
